@@ -23,7 +23,8 @@
     "start": "node backend/server.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
-    "seeder": "node backend/utils/seeder.js"
+    "seeder": "node backend/utils/seeder.js",
+    "build": "cd frontend && npm run build"
   },
   "repository": {
     "type": "git",
